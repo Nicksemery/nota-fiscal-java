@@ -35,36 +35,36 @@ public class Produto implements Calculavel{
 
     @Override
     public double calcularImposto() {
-        return 0;
+        return preco + 300;
     }
 
     @Override
     public double calcularJuros() {
-        return 0;
+        return preco + 60;
     }
 
     @Override
     public double calcularLucro() {
-        return 0;
+        return 450;
     }
 
     @Override
     public double calcularDesconto() {
-        return 0;
+        return preco - 150 ;
     }
 
     @Override
     public double calcularTaxaManuseiro() {
-        return 0;
+        return preco + 10;
     }
 
     @Override
     public double calcularPrecoFinal() {
-        return 0;
+        return preco;
     }
 
     @Override
     public double calcularTotal() {
-        return 0;
+        return preco;
     }
 }
